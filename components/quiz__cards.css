@@ -1,0 +1,10 @@
+.quiz__cards {
+  display: grid;
+  gap: 10px;
+}
+
+@media (min-width: 361px) {
+  .quiz__cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
