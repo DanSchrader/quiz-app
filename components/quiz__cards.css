@@ -1,6 +1,7 @@
 .quiz__cards {
   display: grid;
-  gap: 10px;
+  padding-top: 40px;
+  gap: 40px;
 }
 
 @media (min-width: 361px) {
