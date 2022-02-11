@@ -1,4 +1,9 @@
 .card {
-  border: solid red 2px;
+  background: #323232;
+  border: solid #555555 1px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px -5px black;
   display: grid;
+  height: 300px;
+  width: 300px;
 }

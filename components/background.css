@@ -1,7 +1,8 @@
 .background {
-  background-color: #202020;
+  background-color: #323232;
   display: grid;
   text-align: center;
   grid-template-rows: 48px auto 48px;
   height: 100vh;
+  position: relative;
 }

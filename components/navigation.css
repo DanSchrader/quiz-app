@@ -1,0 +1,14 @@
+.navigation {
+  position: relative;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background: #ddd;
+  height: 48px;
+  gap: 1px;
+  bottom: 0;
+}
