@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 
-@import "style/base.css";
-@import "components/background.css";
-@import "components/container.css";
-@import "components/quiz__title.css";
-@import "components/quiz__cards.css";
-@import "components/card.css";
-@import "components/card__question.css";
-@import "components/card__button.css";
-@import "components/card__answers.css";
-@import "components/navigation.css";
+@import 'style/base.css';
+@import 'components/background.css';
+@import 'components/container.css';
+@import 'components/quiz__title.css';
+@import 'components/quiz__cards.css';
+@import 'components/card.css';
+@import 'components/card__question.css';
+@import 'components/card__button.css';
+@import 'components/card__answers.css';
+@import 'components/navigation.css';
