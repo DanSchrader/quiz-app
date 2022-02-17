@@ -1,5 +1,5 @@
 .background {
   background-color: #323232;
   height: 100vh;
-  max-width: 400px;
+  display: grid;
 }

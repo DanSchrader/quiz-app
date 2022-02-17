@@ -1,0 +1,22 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "Quiz-App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanSchrader/quiz-app.git"
+  },
+  "author": "DanSchrader",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanSchrader/quiz-app/issues"
+  },
+  "homepage": "https://github.com/DanSchrader/quiz-app#readme",
+  "dependencies": {
+    "prettier": "^2.5.1"
+  }
+}

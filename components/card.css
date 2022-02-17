@@ -6,7 +6,9 @@
   display: grid;
   width: 300px;
   height: 300px;
-  padding: 20px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
   position: relative;
 }
 
@@ -17,7 +19,7 @@
   box-shadow: 0 0 20px -5px black;
   display: grid;
   width: 300px;
-  height: 470px;
+  height: auto;
   padding: 0;
   justify-content: center;
   align-items: center;
