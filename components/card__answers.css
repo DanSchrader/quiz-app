@@ -1,2 +1,21 @@
 .card__answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  padding: 0 0 70px 0;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  list-style: none;
+  color: white;
+  gap: 10px;
+  margin: 0 10px;
+}
+
+li {
+  padding: 10px;
+  background-color: #323232;
+  border-radius: 5px;
+  border: solid #555555 1px;
+  box-shadow: 0 0 8px -2px black;
 }

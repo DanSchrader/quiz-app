@@ -4,6 +4,44 @@
   border-radius: 15px;
   box-shadow: 0 0 20px -5px black;
   display: grid;
-  height: 300px;
   width: 300px;
+  height: 300px;
+  padding: 20px;
+  position: relative;
+}
+
+.card__proposition {
+  background: #323232;
+  border: solid #555555 1px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px -5px black;
+  display: grid;
+  width: 300px;
+  height: 470px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card__proposition__form {
+  display: grid;
+  padding: 0 20px;
+  gap: 10px;
+}
+
+.card__proposition__intro {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: white;
+  padding: 0 20px;
+}
+
+.card__proposition__label {
+  font-family: Roboto;
+  color: white;
+  font-size: 12px;
 }

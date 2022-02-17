@@ -1,3 +1,25 @@
 .card__button {
-  border: solid hotpink 2px;
+  width: 120px;
+  height: 30px;
+  background: #212121;
+  border: solid #555555 1px;
+  border-radius: 5px;
+  position: absolute;
+  left: 90px;
+  bottom: 30px;
+  box-shadow: 0 0 8px -2px black;
+}
+
+.card__bookmark {
+  background: transparent;
+  width: 50px;
+  border: none;
+  position: absolute;
+  right: 0px;
+  top: -10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

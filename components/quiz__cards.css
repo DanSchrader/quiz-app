@@ -1,11 +1,13 @@
 .quiz__cards {
   display: grid;
-  padding-top: 40px;
-  gap: 40px;
+  overflow-y: auto;
+  gap: 20px;
+  justify-content: center;
+  padding: 65px 0;
 }
 
-@media (min-width: 361px) {
+/* @media (min-width: 376px) {
   .quiz__cards {
     grid-template-columns: 1fr 1fr;
   }
-}
+} */
