@@ -18,96 +18,105 @@
       />
     </div>
     <main class="quiz__cards">
-      <article class="card">
+      <article class="card" data-js="card">
         <span class="card__question">
           Who was Dt. Lassiter's partner before Dt. O'Hara?
         </span>
         <ul role="list" class="card__answers">
-          <li>Dt. Dobson</li>
-          <li>Dt. Brannigan</li>
-          <li>Dt. Barry</li>
-          <li>Dt. Boone</li>
+          <li class="card__answer">Dt. Dobson</li>
+          <li class="card__answer">Dt. Brannigan</li>
+          <li class="card__answer" data-js="correctAnswer">Dt. Barry</li>
+          <li class="card__answer">Dt. Boone</li>
         </ul>
-        <button class="card__button"><a href="#">Show answer</a></button>
-        <button class="card__bookmark">
-          <img src="./images/icon-pineapple.svg" alt="Bookmark" />
+        <button class="card__button" data-js="answerButton">Show answer</button>
+        <button class="card__bookmark" data-js="bookmark">
+          <img
+            class="card__bookmark__pineapple"
+            src="./images/icon-pineapple.svg"
+            alt="Bookmark"
+          />
         </button>
       </article>
-      <article class="card">
+      <article class="card" data-js="card">
         <span class="card__question">
           What is Shawn irrationally afraid of?
         </span>
         <ul role="list" class="card__answers">
-          <li>Snakes</li>
-          <li>Patrick Dempsey</li>
-          <li>Bodies</li>
-          <li>Tornados</li>
+          <li class="card__answer">Snakes</li>
+          <li class="card__answer" data-js="correctAnswer">Patrick Dempsey</li>
+          <li class="card__answer">Bodies</li>
+          <li class="card__answer">Tornados</li>
         </ul>
-        <button class="card__button"><a href="#">Show answer</a></button>
-        <button class="card__bookmark">
+        <button class="card__button" data-js="answerButton">Show answer</button>
+        <button class="card__bookmark" data-js="bookmark">
           <img src="./images/icon-pineapple.svg" alt="Bookmark" />
         </button>
       </article>
-      <article class="card">
+      <article class="card" data-js="card">
         <span class="card__question"> What is Gus' online poker name? </span>
-        <button class="card__button"><a href="#">Show answer</a></button>
+
         <ul role="list" class="card__answers">
-          <li>BigKitty75</li>
-          <li>MagicHead75</li>
-          <li>TheWiz75</li>
-          <li>SuperSniffer75</li>
+          <li class="card__answer" data-js="correctAnswer">BigKitty75</li>
+          <li class="card__answer">MagicHead75</li>
+          <li class="card__answer">TheWiz75</li>
+          <li class="card__answer">SuperSniffer75</li>
+          <button class="card__button" data-js="answerButton">
+            Show answer
+          </button>
+          <button class="card__bookmark" data-js="bookmark">
+            <img src="./images/icon-pineapple.svg" alt="Bookmark" />
+          </button>
         </ul>
       </article>
-      <article class="card">
+      <article class="card" data-js="card">
         <div class="card__question">
           <p>Which (online) magazine is Gus subscribed to?</p>
         </div>
         <ul role="list" class="card__answers">
-          <li>Safecracker</li>
-          <li>Safewhisperer</li>
-          <li>Save Pluto</li>
-          <li>ControlAltDelete</li>
+          <li class="card__answer" data-js="correctAnswer">Safecracker</li>
+          <li class="card__answer">Safewhisperer</li>
+          <li class="card__answer">Save Pluto</li>
+          <li class="card__answer">ControlAltDelete</li>
         </ul>
-        <button class="card__button"><a href="#">Show answer</a></button>
-        <button class="card__bookmark">
+        <button class="card__button" data-js="answerButton">Show answer</button>
+        <button class="card__bookmark" data-js="bookmark">
           <img src="./images/icon-pineapple.svg" alt="Bookmark" />
         </button>
       </article>
-      <article class="card">
+      <article class="card" data-js="card">
         <span class="card__question">
           Which of the following is not one of Shawn's nicknames?
         </span>
-
         <ul role="list" class="card__answers">
-          <li>Soup Can Sam</li>
-          <li>Dr. Shawn Womack</li>
-          <li>Dry Gulch Slim</li>
-          <li>Catchman</li>
+          <li class="card__answer">Soup Can Sam</li>
+          <li class="card__answer">Dr. Shawn Womack</li>
+          <li class="card__answer">Dry Gulch Slim</li>
+          <li class="card__answer" data-js="correctAnswer">Catchman</li>
         </ul>
-        <button class="card__button"><a href="#">Show answer</a></button>
-        <button class="card__bookmark">
+        <button class="card__button" data-js="answerButton">Show answer</button>
+        <button class="card__bookmark" data-js="bookmark">
           <img src="./images/icon-pineapple.svg" alt="Bookmark" />
         </button>
       </article>
-      <article class="card">
+      <article class="card" data-js="card">
         <span class="card__question"
           >What is the name of the bar in which Lassie passes out?</span
         >
         <ul role="list" class="card__answers">
-          <li>Tom Blair's Pub</li>
-          <li>Shenanigans</li>
-          <li>Molly's Garden</li>
-          <li>Mauricio's</li>
+          <li class="card__answer" data-js="correctAnswer">Tom Blair's Pub</li>
+          <li class="card__answer">Shenanigans</li>
+          <li class="card__answer">Molly's Garden</li>
+          <li class="card__answer">Mauricio's</li>
         </ul>
-        <button class="card__button"><a href="#">Show answer</a></button>
-        <button class="card__bookmark">
+        <button class="card__button" data-js="answerButton">Show answer</button>
+        <button class="card__bookmark" data-js="bookmark">
           <img src="./images/icon-pineapple.svg" alt="Bookmark" />
         </button>
       </article>
     </main>
     <nav class="navigation">
       <button class="navigation__button">
-        <a href="#"
+        <a href="./index.html"
           ><img
             class="navigation__image"
             src="./images/icon-question.svg"
@@ -115,7 +124,7 @@
         /></a>
       </button>
       <button class="navigation__button">
-        <a href="bookmarks.html"
+        <a href="./bookmarks.html"
           ><img
             class="navigation__image"
             src="./images/icon-pineapple.svg"
@@ -123,7 +132,7 @@
         /></a>
       </button>
       <button class="navigation__button">
-        <a href="#"
+        <a href="./newquestion.html"
           ><img
             class="navigation__image"
             src="./images/icon-plus.svg"
@@ -131,7 +140,7 @@
         /></a>
       </button>
       <button class="navigation__button">
-        <a href="#"
+        <a href="./profile.html"
           ><img
             class="navigation__image"
             src="./images/icon-profile.svg"

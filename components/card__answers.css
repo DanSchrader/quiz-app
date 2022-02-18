@@ -1,7 +1,8 @@
 .card__answers {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: center;
+  justify-items: center;
+  align-items: center;
   padding: 0 0 70px 0;
   text-align: center;
   font-family: Roboto;
@@ -12,10 +13,17 @@
   margin: 0 10px;
 }
 
-li {
-  padding: 10px;
+.card__answer {
   background-color: #323232;
   border-radius: 5px;
   border: solid #555555 1px;
   box-shadow: 0 0 8px -2px black;
+  width: 160px;
+  height: 35px;
+  padding: 10px 0;
+}
+
+.correct {
+  border: solid #99cc33 1px;
+  box-shadow: 0 0 8px 1px #99cc33;
 }

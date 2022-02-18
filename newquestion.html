@@ -16,40 +16,32 @@
         alt="The Sweevil Quiz"
       />
     </div>
-    <main class="quiz__cards">
-      <article class="card__proposition">
-        <span class="card__proposition__intro"
+    <main class="proposition__main">
+      <article class="proposition">
+        <span class="proposition__intro"
           >Be welcome to make a proposition for a new question. Just fill out
           the formular below and submit.</span
         >
-        <form class="card__proposition__form" action="submit">
-          <label class="card__proposition__label">
-            Write your question here:
-          </label>
-          <input type="text" />
-          <label class="card__proposition__label">
+        <form class="proposition__form" action="submit">
+          <label class="proposition__label"> Write your question here: </label>
+          <input class="proposition__input--question" type="text" />
+          <label class="proposition__label">
             Write the correct answer here:
           </label>
-          <input type="text" />
-          <label class="card__proposition__label">
-            Write a wrong answer here:
-          </label>
-          <input type="text" />
-          <label class="card__proposition__label">
-            Write a wrong answer here:
-          </label>
-          <input type="text" />
-          <label class="card__proposition__label">
-            Write a wrong answer here:
-          </label>
-          <input type="text" />
-          <button class="card__button"><a href="#">Submit</a></button>
+          <input class="proposition__input" type="text" />
+          <label class="proposition__label"> Write a wrong answer here: </label>
+          <input class="proposition__input" type="text" />
+          <label class="proposition__label"> Write a wrong answer here: </label>
+          <input class="proposition__input" type="text" />
+          <label class="proposition__label"> Write a wrong answer here: </label>
+          <input class="proposition__input" type="text" />
+          <button class="proposition__button"><a href="#">Submit</a></button>
         </form>
       </article>
     </main>
     <nav class="navigation">
       <button class="navigation__button">
-        <a href="#"
+        <a href="./index.html"
           ><img
             class="navigation__image"
             src="./images/icon-question.svg"
@@ -57,7 +49,7 @@
         /></a>
       </button>
       <button class="navigation__button">
-        <a href="bookmarks.html"
+        <a href="./bookmarks.html"
           ><img
             class="navigation__image"
             src="./images/icon-pineapple.svg"
@@ -65,7 +57,7 @@
         /></a>
       </button>
       <button class="navigation__button">
-        <a href="#"
+        <a href="./newquestion.html"
           ><img
             class="navigation__image"
             src="./images/icon-plus.svg"
@@ -73,7 +65,7 @@
         /></a>
       </button>
       <button class="navigation__button">
-        <a href="#"
+        <a href="./profile.html"
           ><img
             class="navigation__image"
             src="./images/icon-profile.svg"
