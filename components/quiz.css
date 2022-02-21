@@ -1,0 +1,96 @@
+.quiz {
+  display: grid;
+  overflow-y: auto;
+  gap: 20px;
+  justify-content: center;
+  padding: 65px 0 65px 0;
+}
+
+.card {
+  background: #323232;
+  border: solid #555555 1px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px -5px black;
+  display: grid;
+  width: 350px;
+  height: 300px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card__question {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: white;
+  padding: 20px 20px 0 20px;
+}
+
+.card__answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 0 0 70px 0;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  list-style: none;
+  color: white;
+  gap: 10px;
+  margin: 0 10px;
+}
+
+.card__answer {
+  background-color: #323232;
+  border-radius: 5px;
+  border: solid #555555 1px;
+  box-shadow: 0 0 8px -2px black;
+  width: 160px;
+  height: 35px;
+  padding: 10px 0;
+}
+
+.correct {
+  border: solid #99cc33 1px;
+  box-shadow: 0 0 8px 1px #99cc33;
+}
+.card__button {
+  width: 120px;
+  height: 30px;
+  background: #212121;
+  border: solid #555555 1px;
+  border-radius: 5px;
+  position: absolute;
+  left: 115px;
+  bottom: 30px;
+  box-shadow: 0 0 8px -2px black;
+  text-decoration: none;
+  color: white;
+}
+
+.card__bookmark {
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: -15px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 2px;
+}
+
+.hidden {
+  background: #545454;
+  border: solid #888888 1px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px -5px black;
+  padding: 2px;
+}
