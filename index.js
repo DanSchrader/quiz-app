@@ -1,5 +1,3 @@
-console.clear();
-
 const bookmarks = document.querySelectorAll('[data-js="bookmark"]');
 
 bookmarks.forEach(bookmark => {
